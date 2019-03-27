@@ -24,7 +24,9 @@ export default new Router({
       children:[
         route("/index/dashboard","/Dashboard","Dashboard"),
         route("/item/category",'/item/Category',"Category"),
-        route("/item/brand",'/item/Brand',"Brand"),
+        //第一个路径对应菜单路径，第二个路径对应vue文件路径，第三个文件名
+        // route("/item/brand",'/item/Brand',"Brand"),
+        route("/item/mybrand",'/item/MyBrand',"MyBrand"),
         route("/item/list",'/item/Goods',"Goods"),
         route("/item/specification",'/item/Specification',"Specification"),
         route("/user/statistics",'/item/Statistics',"Statistics"),
